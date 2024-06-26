@@ -1,0 +1,161 @@
+/* Custom CSS */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; /* Bold */
+}
+
+.navbar-custom {
+  background-color: #fcc026;
+  width: auto;
+  height: 100px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand h3 {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 1.5rem; /* Atur ukuran font sesuai kebutuhan */
+  font-weight: 700; /* Bold */
+  color: rgb(224, 224, 224); /* Warna putih */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow */
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; /* Bold */
+  color: white; /* Warna putih */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow */
+}
+
+.navbar-brand {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; /* Atur z-index agar tetap di atas konten lain */
+}
+
+.about-us img {
+  width: 400px; /* Mengatur gambar agar sesuai dengan lebar kolom */
+  height: 400px; /* Menjaga rasio aspek gambar */
+  margin-bottom: 5px; /* Menambahkan jarak bawah pada gambar */
+}
+
+.about-us h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fcc026;
+  display: inline-block; /* Mengatur elemen agar hanya selebar konten */
+  padding: 10px; /* Menambahkan padding */
+  border-radius: 5px; /* Menambahkan border radius */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.kepengurusan-section {
+  margin-top: 20px;
+}
+
+.management-card {
+  margin-top: 20px;
+}
+
+h1 {
+  color: #fcc026; /* Warna kuning */
+  font-size: 2rem;
+  text-align: center;
+}
+#map {
+  height: 450px;
+  width: 100%;
+  border: 0;
+}
+
+.list-inline-item {
+  margin-right: 15px;
+}
+
+.social-icon {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+  vertical-align: middle;
+}
+
+.list-inline {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #343a40;
+}
+
+h2,
+h4,
+h5 {
+  color: #343a40;
+}
+
+p {
+  font-size: 1em;
+  color: #6c757d;
+}
+
+.leader-img,
+.member-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid #343a40;
+  border-radius: 10px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  border-radius: 10px;
+}
+
+.overlay .icon {
+  color: white;
+  font-size: 1.5em;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+}
+
+.position-relative:hover .overlay {
+  opacity: 1;
+}
